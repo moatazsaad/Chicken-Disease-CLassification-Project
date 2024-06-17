@@ -1,15 +1,17 @@
+#  Used for packaging Python projects
 import setuptools
-
+# opens the README.md file, reads its contents and stores it in the variable long_description
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-
+# Defining the Package Version
 __version__ = "0.0.0"
 
+# Defining Package Metadata
 REPO_NAME = "Chicken-Disease-Classification--Project"
 AUTHOR_USER_NAME = "moatazsaad"
 SRC_REPO = "cnnClassifier"
-AUTHOR_EMAIL = "moataz.osama@mail.com"
+AUTHOR_EMAIL = "moataz.osama@hotmail.com"
 
 
 setuptools.setup(
